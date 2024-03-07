@@ -1,0 +1,32 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+.hd--top {
+    position: relative;
+    background-color: aliceblue;
+    padding: 20px 0px;
+}
+
+.hd--top__logo {
+    position: absolute;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.hd--top__search {
+    position: absolute;
+    left: 300px;
+}
+
+.hd--top__right {
+    
+}
