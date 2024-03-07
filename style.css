@@ -13,20 +13,100 @@ a:visited {
 .hd--top {
     position: relative;
     background-color: aliceblue;
-    padding: 20px 0px;
+    padding: 45px 0;
+    border-radius: 0 0 30px 30px;
 }
 
 .hd--top__logo {
     position: absolute;
-    font-size: 40px;
-    font-weight: 800;
+    font-size: 30px;
+    font-weight: 1000;
+    top: 25px;
+    left: 30px;
 }
 
 .hd--top__search {
     position: absolute;
-    left: 300px;
+    left: 220px;
+    top: 15px;
+    border: 3px black;
+    padding: 5px 5px 5px 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.hd--top__search input {
+    padding: 5px 400px 5px 10px;
+    border: 0px;
+    border-radius: 10px;
+    color: #86868F;
+}
+
+.hd-btn {
+    padding: 5px 10px;
+    background-color: white;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #0D68FF;
 }
 
 .hd--top__right {
-    
+    font-size: 18px;
+    position: absolute;
+    right: 40px;
+    top: 28px;
+}
+
+.hd--top__right a {
+    padding: 0 15px;
+    color: #86868F;
+}
+
+.shoping {
+    position: relative;
+}
+
+.shoping i {
+    color: #0D68FF;
+}
+
+.shoping div {
+    position: absolute;
+    font-size: 10px;
+    left: 25px;
+    top: -13px;
+    background-color: red;
+    padding: 2px 4px;
+    border-radius: 50%;
+    color: white;
+}
+
+.hd--bottom {
+    position: relative;
+}
+
+.hd--bottom__list ul {
+    position: absolute;
+    display: flex;
+    list-style: none;
+    left: 170px;
+    top: -36px;
+}
+
+.hd--bottom__list li {
+    padding: 0 10px;
+    font-size: 14px;
+    color: #86868F;
+}
+
+.hd--bottom__event {
+    position: absolute;
+    right: 130px;
+    top: -23px;
+    color: #86868F;
+}
+
+.hd--bottom__event strong {
+    color: black;
 }
